@@ -1,0 +1,410 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  
+}
+img {
+  min-width: 100%;
+  
+}
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.menu {
+  margin-top: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.name {
+  display: block;
+  font-size: 16px;
+  font-weight: 800;
+}
+.description {
+  margin-left: 9px;
+}
+.menu-logo{
+  display: flex;
+  align-items: center;
+}
+.avatar {
+  width: 57px;
+  height: 57px;
+  background:      url('https://pp.userapi.com/c847020/v847020576/15264a/wXdtcUz7pfQ.jpg?ava=1');
+  background-size: 100%;
+  border-radius: 50%;
+}
+.menu-list {
+  display: flex;
+  align-items: center;
+}
+.menu-list a {
+  display: inline-block;
+  line-height: 1;
+  text-decoration: none;
+  cursor: pointer;
+  position:relative;
+  color: #2b2a2c;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-right: 34px;
+}
+.menu-list a:after {
+    display: block;
+    content: "";
+    background-color: #000;
+    height: 3px;
+    width: 0%;
+    left:50%;
+    position:absolute;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+    -webkit-transform:translateX(-50%);
+    -moz-transform:translateX(-50%);
+    transform:translateX(-50%);
+}
+.menu-list a:hover:after,
+.menu-list a:focus:after {
+    width: 100%;
+}
+
+.menu-button {
+  text-transform: uppercase;
+  font-style: 14px;
+  font-weight: 800;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 2px solid #2b2a2c;
+  padding: 13px 22px;
+}
+
+.hero {
+  padding-top: 112px;
+  padding-bottom: 112px;
+  background: url('https://cdn.pixabay.com/photo/2018/03/31/21/18/african-american-3279360_960_720.jpg') no-repeat right top;
+}
+.hero-subtitle {
+  font-size: 32px;
+}
+.hero-title {
+  font-size: 45px;
+  font-weight: 800;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.hero-discription {
+  font-size: 18px;
+  color: #6a696b;
+}
+.hero-social {
+  margin-top: 30px;
+}
+.social {
+  display: inline-block;
+  width: 41px;
+  height: 41px;
+  margin-right: 10px;
+  color: #fff;
+  text-align: center;
+  line-height: 41px;
+}
+.behance-bg {
+  background-color: #1869ff;
+}
+.facebook-bg {
+  background-color: #3a5898;
+}
+.instagram-bg {
+  background-color: #13578a;
+}
+.vk-bg {
+  background-color: #56acef;
+}
+.hero-buttons {
+  margin-top: 40px;
+}
+.button {
+  font-size: 16px;
+  font-weight: 800;
+  text-decoration: none;
+  background-color: #2b2a2c;
+  border-radius: 50px;
+  padding: 20px 34px;
+  display: inline-block;
+}
+.button-primary {
+  color: #fff;
+}
+.button-o {
+  background-color: transparent;
+  color: #6a696b;
+  border: 1px solid #6a696b;
+  margin-left: 17px;
+}
+
+
+.projects {
+  padding: 97px 0;
+}
+.project-cards {
+  display: flex;
+  justify-content: space-between;
+  display: block;
+  
+  
+}
+.project-card {
+  margin-bottom: 50px;
+  border-radius: 10px 10px 0 0;
+  height: 370px;
+  width: 370px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  
+}
+.project-card-image {
+  height: 300px;
+}
+.landing-page {
+  background: url('https://cdn.pixabay.com/photo/2016/08/18/21/07/seo-1603927__340.png') no-repeat center;
+  background-size: cover;
+ 
+}
+.project-card__info {
+  padding: 19px 13px;
+}
+.project-category {
+  display: block;
+  font-size: 12px;
+  color: #2b2a2c;
+}
+.project-title {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 10px;
+}
+
+.content1 {
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: space-between;
+}
+.content2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.content3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.medicine {
+  background: url('https://cdn3.savepice.ru/uploads/2019/1/26/0919fd8f7bbb9a7cc56202d09190b59d-full.jpg') no-repeat center;
+  background-size: cover;
+}
+.relaxation {
+  background: url('https://cdn1.savepice.ru/uploads/2019/1/26/a2241a01e997facfb3d3ec93ec7a8ab8-full.jpg') no-repeat center;
+  background-size: cover;
+}
+.gambling {
+  background: url('https://cdn1.savepice.ru/uploads/2019/1/26/0b773bd3dccc7cb3449f633958e894c3-full.jpg') no-repeat center;
+  background-size: cover;
+}
+.sport {
+  background: url('https://cdn1.savepice.ru/uploads/2019/1/26/c3d66759d3db285617217e46c6b297e8-full.jpg') no-repeat center;
+  background-size: cover;
+}
+.sex {
+  background: url('https://cdn1.savepice.ru/uploads/2019/1/26/f81b22bfc6489339b426c551edf1aa91-full.jpg') no-repeat center;
+  background-size: cover;
+}
+.weddings {
+  background: url('https://cdn1.savepice.ru/uploads/2019/1/26/c3e988779197f7d130a5ccc620336d34-full.jpg') no-repeat center;
+  background-size: cover;
+}
+.fishing {
+  background: url('https://cdn1.savepice.ru/uploads/2019/1/26/3a0bbf3a990b89918f44c3d5d6066451-full.jpg') no-repeat center;
+  background-size: cover;
+}
+.photo {
+  background: url('https://cdn1.savepice.ru/uploads/2019/1/26/bf62f741a08a9996e6e26f92332ee6d5-full.jpg') no-repeat center;
+  background-size: cover;
+}
+
+.about {
+   padding-top: 200px;
+   background: url('https://cdn.pixabay.com/photo/2016/03/28/22/18/business-man-1287044_960_720.jpg') no-repeat left top;
+}
+.about-info {
+ 
+}
+.about-main {
+  margin-left: 600px;
+  font-size: 45px;
+  font-weight: 800;
+}
+
+p {
+  margin-left: 600px;
+  display: inline-block;
+  color: #717072;
+  font-size: 12px;
+  line-height: 24px;
+}
+.about-buttons {
+  margin-left: 600px;
+  margin-top: 50px;
+}
+
+
+
+.footer{
+  
+  background-color: #2b2a2c;
+  padding: 20px 0;
+  color: #8d8d8e;
+  margin-top: 120px;
+  
+  
+} 
+.footer a {
+  color: #8d8d8e;
+  text-decoration: none;
+}
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-text {
+  display: flex;
+  align-items: center;;
+}
+.coopyright {
+  padding-right: 16px;
+  margin-right: 16px;
+  border-right: 1px solid #413f41;
+  font-size: 14px;
+}
+.footer-social__link {
+  font-size: 20px;
+  margin-right: 13px;
+  
+}
+.footer-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-menu a {
+  font-size: 14px;
+  display: inline-block;
+  margin-right: 30px;
+  }
+.footer-button {
+  font-style: 14px;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 1px solid #8d8d8e;
+  padding: 8px 22px;
+}
+
+
+@media (max-width: 1200px) {
+  .container {
+    width: 965px;
+  }
+  .project-card {
+    width: 48%;
+  }
+  .hero-subtitle {
+    font-size: 25px;
+  }
+  .hero-title {
+    font-size: 25px;
+  }
+  .about-buttons {
+     margin-left: 570px;
+  }
+}
+
+
+@media (max-width: 992px) {
+  .container {
+    width: 760px;
+  }
+   .menu-list {
+    font-size: 14px;
+    
+  }
+  .name {
+    font-size: 16px;
+  }
+  .hero {
+    background: none;
+    text-align: center;
+    }
+  .about {
+    background: none;
+    padding-top: 0;
+  }
+  p {
+    text-align: center;
+    margin: 50px 0;
+    padding: 0;
+  }
+  .about-main {
+    text-align: center;
+    margin-left: 250px;
+    padding: 0;
+  }
+  .about-buttons {
+  margin-left: 0;
+  margin-top: 0;
+    text-align: center;
+}
+  .footer-menu a {
+    font-size: 10px;
+  }  
+
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+  .project-card {
+    width: 95%;
+    margin: 30px auto;
+  }
+  .menu-list {
+    font-size: 13px;
+    
+  }
+  .name {
+    font-size: 14px;
+  }
+  .footer-menu a {
+    font-size: 8px;
+  }  
+}
+@media (max-width: 760px) {
+  .menu-list {
+    display: none;
+  }
+  .footer-menu a {
+    display: none;
+  } 
+  .about-main {
+    font-size: 15px;
+   margin-left: 180px;
+  }
+}
